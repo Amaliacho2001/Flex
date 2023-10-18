@@ -1,0 +1,80 @@
+body {
+  background: darkslategrey;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  color: black;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 35px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 800px;
+  height: 250px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+ 
+  gap: 18px;
+  
+ 
+}
+
+.icon {
+ background: lavender;
+ color: blue;
+ border-radius: 50%;
+ font-size: 50px;
+ width: 40px;
+ height: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
+}
+
+.close-button {
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 1px solid lavender;
+  
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.continue {
+  background: blue;
+  color: whitesmoke;
+  font-size: 15px;
+  border: 1px solid darkblue;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 100px;
+  height: 30px;
+}
+
+.cancel {
+  background: lavender;
+  color: blue;
+  font-size: 15px;
+  border: 1px solid darkblue;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 100px;
+  height: 30px;
+}
