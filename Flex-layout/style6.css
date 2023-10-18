@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: burlywood;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+img {
+  margin-bottom: 2%;
+  width: 700px;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: silver;
+  height: 100px;
+}
+
+input {
+  width: 300px;
+  height: 20px;
+  border: 5px solid burlywood;
+  border-radius: 5%;
+  padding: 8px 20px;
+  margin-bottom: 16px;
+}
+
+.content {
+   text-align: center;
+}
+
+button {
+  background: silver;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+}
+
+
+
+
+
+
